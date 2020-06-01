@@ -90,6 +90,7 @@
   <ItemGroup>
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Image\expansion-hubble.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
