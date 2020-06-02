@@ -3,20 +3,19 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-    <link href="~/Content/site.min.css" rel="stylesheet" />
+    <title>@ViewBag.Title - UAI</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
     <script src="~/Scripts/jquery-2.2.4.min.js"></script>
 </head>
 <body>
     <div id="container">
         <header>
+            
+
             <h1>¿Hay vida en otros planetas? - Sistemas solares</h1>
-            <nav>
-                <ul>
-                    
-                    
-                </ul>
-            </nav>
+
+           
+
         </header>
         <section>
             <article>
@@ -27,12 +26,12 @@
         <aside id="pub">
             <article>
                 <div>
-                    
+                   
                 </div>
             </article>
         </aside>
         <footer>
-            <p>&copy; @DateTime.Now.Year - Norte Contreras Victor | Parcial 1</p>
+            <p>@DateTime.Now.Year</p>
         </footer>
     </div>
     @RenderSection("scripts", required: false)

@@ -91,6 +91,9 @@
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Image\expansion-hubble.jpg" />
+    <None Include="Scripts\jquery-2.2.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.4.js" />
+    <Content Include="Scripts\jquery-2.2.4.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,8 +109,8 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Cosmo.cshtml" />
+    <Content Include="Scripts\jquery-2.2.4.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
